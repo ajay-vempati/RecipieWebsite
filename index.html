@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Delight</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Delight</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="recipe-list">
+            <h2>Our Recipes</h2>
+            <div id="recipes-container"></div>
+        </section>
+
+        <section id="recipe-detail" style="display:none;">
+            <button id="back-btn">← Back to Recipes</button>
+            <h2 id="recipe-title"></h2>
+            <p id="recipe-description"></p>
+            <h3>Ingredients</h3>
+            <ul id="ingredients-list"></ul>
+            <h3>Steps</h3>
+            <ol id="steps-list"></ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Recipe Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
